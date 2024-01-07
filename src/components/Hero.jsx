@@ -1,7 +1,7 @@
 import React from 'react'
 
 import styles from '../style'
-import {discount, robot} from '../assets'
+import {discount, robot, game_dev_banner, soldier} from '../assets'
 import GetStarted from './GetStarted'
 
 const Hero = () => (
@@ -13,20 +13,11 @@ const Hero = () => (
         className={`flex-1 ${styles.flexStart} 
         flex-col xl:px-0 sm:px-16 px-6`}>
 
-          {/* The Discount text */}
-          <div className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2'>
-            <img src={discount} alt="discount" className='w-[32px] h-[32px]'/>
-            <p className={`${styles.paragraph} ml-2`}>
-              <span className='text-white'>20%</span> Discount For {" "}
-              <span className='text-white'>1 Month</span> Account
-            </p>
-          </div>
-
           {/* The Title */}
           <div className='flex flex-row justify-between items-center w-full'>
             <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
-              Next <br className='sm:block hidden'/> {" "}
-              <span className='text-gradient'>Generation</span> {" "}
+              Learn <br className='sm:block hidden'/> {" "}
+              <span className='text-gradient'>Game</span> {" "}
             </h1>
             {/* The Get Started bubble */}
             <div className='ss:flex hidden md:mr-4 mr-0'>
@@ -37,17 +28,17 @@ const Hero = () => (
           <h1 
             className='font-poppins font-semibold 
             ss:text-[68px] text-[52px] text-white 
-            ss:leading-[100px] leading-[75px] w-full'> Investing.</h1>
+            ss:leading-[100px] leading-[75px] w-full'> Development.</h1>
 
           <p className={`${styles.paragraph} max-w-[470px] mt-5 mb-10`}>
-          Empowering tomorrow's investors today. Next Generation Investing - where innovation meets opportunity.
+          Enroll to my course to learn secret mechanics behind amazing video games and by the end of this class you will be able to build and deploy your own video game!
           </p>
       </div>
 
       {/* The robotic arm image */}
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
         <img 
-          src={robot} alt='billing'
+          src={game_dev_banner} alt='billing'
           className='w-[100%] h-[100%] relative z-[5]'/>
           
           {/* gradient start */}

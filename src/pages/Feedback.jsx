@@ -2,7 +2,7 @@ import React from 'react'
 
 import styles from '../style';
 
-import { Navbar, Hero, Stats, Business, Billing, CardDeal, Testimonials, Clients, CTA, Footer } from '.././components';
+import { Navbar, Comments, Testimonials, Footer } from '.././components';
 
 
 const Feedback = () => (
@@ -15,8 +15,7 @@ const Feedback = () => (
 
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
             <div className={`${styles.boxWidth}`}>
-                <Testimonials/>
-                <Clients/>
+                <Comments/>
                 <Footer/>
             </div>
         </div>

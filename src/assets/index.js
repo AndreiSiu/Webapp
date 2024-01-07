@@ -27,8 +27,30 @@ import itachi_icon from "./itachi_icon.png"
 import zoro_icon from "./zoro_icon.png"
 import me_icon from "./me_icon.png"
 import new_logo from "./new_logo.png"
+import my_logo from "./my_logo.png"
+import soldier from "./game dev soldier.png"
+import game_dev_banner from "./game dev.png"
+
+import fantasy_fighters from "./fantasy fighters.png"
+import cell_invaders from "./cell invaders.png"
+import city_builder from "./city builder.png"
+import monster_den from "./monster den.png"
+import endless_runner from "./enldess runner.png"
+import mayhem from "./mayhem.png"
+
+import profile_pic from './profile pic.jpeg'
+
+import course_pic from './courses.png'
 
 export {
+  course_pic,
+  profile_pic,
+  fantasy_fighters,
+  cell_invaders,
+  city_builder,
+  monster_den,
+  endless_runner,
+  mayhem,
   airbnb,
   bill,
   binance,
@@ -58,4 +80,7 @@ export {
   zoro_icon,
   me_icon,
   new_logo,
+  my_logo,
+  soldier,
+  game_dev_banner,
 };

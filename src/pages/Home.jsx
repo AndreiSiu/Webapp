@@ -1,10 +1,10 @@
 import styles from '../style';
 
 
-import { Navbar, Hero, Stats, Business, Billing, CardDeal, Testimonials, Clients, CTA, Footer } from '.././components';
+import { Navbar, Hero, Achievments, Library, Footer } from '.././components';
 
 const Home = () => (
-  <div className="bg-primary w-full overflow-hidden">
+  <div className={`bg-primary w-full overflow-hidden`}>
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar/>
@@ -19,10 +19,10 @@ const Home = () => (
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <Stats/>
-        <Business/>
-        <Billing/>
-        <CardDeal/>
+        <Achievments/>
+        <Library/>
+        {/* <Billing/>
+        <CardDeal/> */}
         <Footer/>
       </div>
     </div>
