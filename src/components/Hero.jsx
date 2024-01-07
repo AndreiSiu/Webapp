@@ -1,7 +1,7 @@
 import React from 'react'
 
 import styles from '../style'
-import {discount, robot, game_dev_banner, soldier} from '../assets'
+import {game_dev_banner} from '../assets'
 import GetStarted from './GetStarted'
 
 const Hero = () => (

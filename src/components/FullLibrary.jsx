@@ -1,6 +1,5 @@
 import styles, {layout} from "../style"
 import { fullGameList } from "../constants"
-import Button from './Button'
 
 
 const FeatureCard = ({image, title, content, link, index}) => (

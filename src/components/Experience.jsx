@@ -1,5 +1,5 @@
-import { profile_pic } from "../assets"
-import styles, {layout} from "../style"
+
+import {layout} from "../style"
 import { experience } from "../constants"
 
 const Experience = () => (

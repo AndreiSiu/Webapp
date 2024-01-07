@@ -1,6 +1,4 @@
-import { profile_pic } from "../assets"
-import styles, {layout} from "../style"
-import { experience } from "../constants"
+import {layout} from "../style"
 
 const Teaching_Evaluation = () => (
    <div className={`${layout.sectionImg} flex flex-row p-6 

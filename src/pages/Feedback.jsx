@@ -2,7 +2,7 @@ import React from 'react'
 
 import styles from '../style';
 
-import { Navbar, Comments, Testimonials, Footer } from '.././components';
+import { Navbar, Comments, Footer } from '.././components';
 
 
 const Feedback = () => (

@@ -1,5 +1,4 @@
-import { profile_pic } from "../assets"
-import styles, {layout} from "../style"
+import {layout} from "../style"
 import { education } from "../constants"
 
 const Education = () => (

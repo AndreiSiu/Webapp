@@ -1,6 +1,4 @@
-import { card } from "../assets"
 import styles, {layout} from "../style"
-import Button from './Button'
 
 const Social = () => (
   <section className={layout.section}>
