@@ -7,7 +7,7 @@ import GetStarted from './GetStarted'
 const Hero = () => (
     <section 
       id="home" 
-      className={`flex md:flex-row flex-col ${styles.paddingY}`}
+      className={`flex md:flex-row flex-col`}
     >
       <div 
         className={`flex-1 ${styles.flexStart} 
@@ -15,7 +15,7 @@ const Hero = () => (
 
           {/* The Title */}
           <div className='flex flex-row justify-between items-center w-full'>
-            <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]'>
+            <h1 className='flex-1 font-poppins font-semibold ss:text-[50px] text-[40px] text-white ss:leading-[100px] leading-[75px] sm:text-[70px]'>
               Learn <br className='sm:block hidden'/> {" "}
               <span className='text-gradient'>Game</span> {" "}
             </h1>
@@ -27,8 +27,8 @@ const Hero = () => (
 
           <h1 
             className='font-poppins font-semibold 
-            ss:text-[68px] text-[52px] text-white 
-            ss:leading-[100px] leading-[75px] w-full'> Development.</h1>
+            ss:text-[50px] text-[40px] text-white 
+            ss:leading-[100px] leading-[75px] w-full sm:text-[70px]'> Development.</h1>
 
           <p className={`${styles.paragraph} max-w-[470px] mt-5 mb-10`}>
           Enroll to my course to learn secret mechanics behind amazing video games and by the end of this class you will be able to build and deploy your own video game!
