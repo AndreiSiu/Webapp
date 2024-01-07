@@ -16,7 +16,7 @@ const Teaching_Details = () => (
     </div>
 
     <div className={`${layout.sectionInfo} bg-dimBlue feature-card rounded-[20px] p-10 m-5`}>
-        <section className="border-b-[1px] border-b-[#3f3r45] w-full flex justify-between md:flex-row flex-col pt-6 ">
+        <section className="border-b-[1px] border-b-[#545454] w-full flex justify-between md:flex-row flex-col pt-6 ">
             <div className={layout.sectionInfo}>
                 <h4 className="font-poppins font-bold text-white text-[20px] leading-[23px] mb-1">Course & Seminar:</h4>
             </div>

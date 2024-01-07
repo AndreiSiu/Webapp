@@ -11,7 +11,7 @@ const Teaching_Courses = () => (
       </h2>
       <div className={`flex-col`}>
         {courses.map((item, index) => (
-            <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px] mb-1 border-b-[1px] border-b-[#3f3r45] pb-2 rounded-[5px] hover:text-[18px] hover:text-white">
+            <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px] mb-1 border-b-[1px] border-b-[#545454] pb-2 rounded-[5px] hover:text-[18px] hover:text-white">
             {'> '}{item.title}
             </p>
         ))}
