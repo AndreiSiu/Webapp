@@ -1,6 +1,7 @@
 import { course_pic } from "../assets"
 import { courses } from "../constants"
 import styles, {layout} from "../style"
+import Button from './Button'
 
 const Teaching_Courses = () => (
   <section className={layout.section}>
